@@ -5,13 +5,13 @@ import { planSchedule } from "@/lib/ai.functions";
 export const Route = createFileRoute("/planner")({
   head: () => ({
     meta: [
-      { title: "AI Task Planner | Aster AI" },
+      { title: "AI Task Planner | WorkSync AI" },
       {
         name: "description",
         content:
           "Turn a messy task list into a prioritised, time-blocked daily or weekly schedule with realistic breaks.",
       },
-      { property: "og:title", content: "AI Task Planner | Aster AI" },
+      { property: "og:title", content: "AI Task Planner | WorkSync AI" },
       {
         property: "og:description",
         content: "Prioritise tasks and build a realistic time-blocked schedule.",

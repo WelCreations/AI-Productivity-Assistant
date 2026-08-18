@@ -5,13 +5,13 @@ import { researchTopic } from "@/lib/ai.functions";
 export const Route = createFileRoute("/research")({
   head: () => ({
     meta: [
-      { title: "AI Research Assistant | Aster AI" },
+      { title: "AI Research Assistant | WorkSync AI" },
       {
         name: "description",
         content:
           "Summarise topics or pasted articles into key concepts, insights, recommendations and clearly flagged limitations.",
       },
-      { property: "og:title", content: "AI Research Assistant | Aster AI" },
+      { property: "og:title", content: "AI Research Assistant | WorkSync AI" },
       {
         property: "og:description",
         content: "Summaries, insights and recommendations with honest confidence limits.",
