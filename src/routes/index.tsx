@@ -68,7 +68,7 @@ const TOOLS = [
 function Dashboard() {
   return (
     <AppShell
-      title="Dashboard"
+      title="WorkSync"
       description="Five AI tools for the work that eats your day."
     >
       <div className="flex flex-col gap-6">
