@@ -1,10 +1,10 @@
-# Aster AI — AI Productivity Assistant
+# WorkSync AI — AI Productivity Assistant
 
 One integrated AI-powered platform that automates the everyday workplace tasks that eat the most time: writing emails, summarising meetings, planning the day, researching topics and answering quick work questions.
 
 ## Project overview
 
-Aster AI is a single dashboard application (not multiple projects) containing five AI-powered tools behind one sidebar navigation. Each tool wraps a carefully engineered system prompt around the Lovable AI gateway so results arrive **structured, editable and honest about their limitations**.
+WorkSync AI is a single dashboard application (not multiple projects) containing five AI-powered tools behind one sidebar navigation. Each tool wraps a carefully engineered system prompt around the Lovable AI gateway so results arrive **structured, editable and honest about their limitations**.
 
 ## Features
 

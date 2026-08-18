@@ -5,13 +5,13 @@ import { summarizeNotes } from "@/lib/ai.functions";
 export const Route = createFileRoute("/notes")({
   head: () => ({
     meta: [
-      { title: "Meeting Notes Summarizer | Aster AI" },
+      { title: "Meeting Notes Summarizer | WorkSync AI" },
       {
         name: "description",
         content:
           "Turn messy meeting notes into a structured summary with decisions, owners, action items and deadlines.",
       },
-      { property: "og:title", content: "Meeting Notes Summarizer | Aster AI" },
+      { property: "og:title", content: "Meeting Notes Summarizer | WorkSync AI" },
       {
         property: "og:description",
         content: "Extract decisions, action items and deadlines from raw meeting notes.",

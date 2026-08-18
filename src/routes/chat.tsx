@@ -11,13 +11,13 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/chat")({
   head: () => ({
     meta: [
-      { title: "Workplace AI Chatbot | Aster AI" },
+      { title: "Workplace AI Chatbot | WorkSync AI" },
       {
         name: "description",
         content:
           "Chat with Aster, an AI workplace assistant for drafting, planning, decisions and day-to-day office questions.",
       },
-      { property: "og:title", content: "Workplace AI Chatbot | Aster AI" },
+      { property: "og:title", content: "Workplace AI Chatbot | WorkSync AI" },
       {
         property: "og:description",
         content: "An interactive AI assistant for everyday workplace tasks.",

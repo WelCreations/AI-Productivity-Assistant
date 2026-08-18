@@ -5,13 +5,13 @@ import { generateEmail } from "@/lib/ai.functions";
 export const Route = createFileRoute("/email")({
   head: () => ({
     meta: [
-      { title: "Smart Email Generator | Aster AI" },
+      { title: "Smart Email Generator | WorkSync AI" },
       {
         name: "description",
         content:
           "Draft professional workplace emails in formal, friendly or persuasive tones, then edit the AI output before sending.",
       },
-      { property: "og:title", content: "Smart Email Generator | Aster AI" },
+      { property: "og:title", content: "Smart Email Generator | WorkSync AI" },
       {
         property: "og:description",
         content: "Generate tone-controlled professional emails with Lovable AI.",
