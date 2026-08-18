@@ -94,7 +94,7 @@ export function AiToolPage({
                   />
                 )}
                 {f.type === "select" && (
-                  <Select value={values[f.name]} onValueChange={(v) => set(f.name, v)}>
+                  <Select value={values[f.name] ?? ""} onValueChange={(v) => set(f.name, v)}>
                     <SelectTrigger id={f.name}>
                       <SelectValue />
                     </SelectTrigger>
