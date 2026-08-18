@@ -60,8 +60,8 @@ function Brand() {
         A
       </div>
       <div className="leading-tight">
-        <p className="text-sm font-semibold text-sidebar-foreground">Aster AI</p>
-        <p className="text-xs text-sidebar-foreground/60">Productivity Assistant</p>
+        <p className="text-sm font-semibold text-sidebar-foreground">WorkSync AI</p>
+        <p className="text-xs text-sidebar-foreground/60">One AI workspace for your workday</p>
       </div>
     </div>
   );
@@ -143,7 +143,7 @@ export function AppShell({
         <main className="flex-1 px-4 py-6 sm:px-6 lg:px-8">{children}</main>
 
         <footer className="border-t border-border/70 px-4 py-4 text-xs text-muted-foreground sm:px-6 lg:px-8">
-          Aster AI assists — it does not decide. Verify facts, figures and commitments before use.
+          WorkSync AI assists — it does not decide. Verify facts, figures and commitments before use.
         </footer>
       </div>
     </div>

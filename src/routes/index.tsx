@@ -13,13 +13,13 @@ import { AppShell } from "@/components/app-shell";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Aster AI — Workplace Productivity Assistant" },
+      { title: "WorkSync AI — One AI Workspace for Your Workday" },
       {
         name: "description",
         content:
           "One dashboard with five AI tools: email generation, meeting summaries, task planning, research briefs and a workplace chatbot.",
       },
-      { property: "og:title", content: "Aster AI — Workplace Productivity Assistant" },
+      { property: "og:title", content: "WorkSync AI — One AI Workspace for Your Workday" },
       {
         property: "og:description",
         content:
@@ -83,7 +83,7 @@ function Dashboard() {
             Automate the writing, summarising and planning. Keep the judgement.
           </h2>
           <p className="mt-4 max-w-2xl text-sm text-primary-foreground/85 sm:text-base">
-            Aster AI wraps carefully engineered prompts around Lovable AI so every output arrives
+            WorkSync AI wraps carefully engineered prompts around Lovable AI so every output arrives
             structured, editable and honest about what it doesn't know.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
